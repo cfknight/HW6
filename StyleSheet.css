@@ -1,0 +1,38 @@
+﻿
+/*
+    colors:
+    coral: #F08080
+    tan: #D2B48C
+    yellow: #FFFF99
+    silver: #696969
+*/
+body {
+    background:#696969;
+}
+
+a:link {color:white;}
+a:visited {color:#F08080;}
+
+div {
+    background:#D2B48C;
+    text-align:center;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    color: #FFFF99;
+}
+
+.highlight {
+    font-style:italic; 
+    font-weight:bold;
+}
+
+.gridview {width:60%; background: #FFFF99; border: solid 2px white; margin-left:auto; margin-right:auto;}
+.gridview th {border: solid 2px white; background:#F08080; color:white; height:50px;}
+.gridview td {border: solid 2px white; color:#696969; height:30px;}
+.gridview a {text-decoration: none;}
+.gridview a:hover {text-decoration:underline;}
+
+ul#navlist {list-style-type:none; margin:0px; padding:0px; height:50px; background:white; width:60%; margin-right:auto; margin-left:auto;}
+#navlist a {display: inline;}
+#navlist li {padding:10px 10px; display:inline-block;}
