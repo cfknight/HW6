@@ -38,6 +38,9 @@
 <asp:DetailsView ID="DetailsView1" runat="server" AutoGenerateRows="False" DataKeyNames="Id" 
     DataSourceID="SqlDataSource1" CssClass="detailsview" HeaderText="Recipe Details"
     HeaderStyle-CssClass="header" FieldHeaderStyle-CssClass="fieldheader" itemstyle-cssclass="item" CommandRowStyle-CssClass="command">
+<CommandRowStyle CssClass="command"></CommandRowStyle>
+
+<FieldHeaderStyle CssClass="fieldheader"></FieldHeaderStyle>
     <Fields>
         <asp:BoundField DataField="Name" HeaderText="Name" SortExpression="Name" />
         <asp:BoundField DataField="SubmittedBy" HeaderText="Submitted By" SortExpression="SubmittedBy" />
@@ -48,8 +51,10 @@
         <asp:BoundField DataField="Ingredient5" HeaderText="Ingredient #5" SortExpression="Ingredient5" />
         <asp:BoundField DataField="Preparation" HeaderText="Preparation" SortExpression="Preparation" />
         <asp:BoundField DataField="Notes" HeaderText="Notes" SortExpression="Notes" />
-        <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" ShowInsertButton="True" />
+        <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" />
     </Fields>
+
+<HeaderStyle CssClass="header"></HeaderStyle>
 </asp:DetailsView>
 </div>
 </asp:Content>
