@@ -12,6 +12,7 @@
 <body>
     <form id="form1" runat="server">
     <div>
+        <h1>&nbsp;</h1>
         <h1>Wicked Easy Recipes</h1>
         <h3>Using 5 Ingredients or Less!</h3>
             <div class="menubar">
@@ -22,12 +23,17 @@
                     <li> <a href="./contactus.aspx">Contact</a></li>
                 </ul>
             </div>
+        <br />
         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
         
         </asp:ContentPlaceHolder>
         <footer>
             <br />
-            &copy; 2014. 6K:183 Software Design & Development
+            &copy; 2014 Chuck Knight 
+            <br />
+            6K:183 HW6
+            <br />
+            <br />
         </footer>
     </div>
     </form>

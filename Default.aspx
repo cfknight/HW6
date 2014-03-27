@@ -33,7 +33,7 @@
 </asp:SqlDataSource>
     <asp:GridView ID="GridView1" runat="server" AllowPaging="True" 
         AutoGenerateColumns="False" DataKeyNames="Id" DataSourceID="SqlDataSource1" 
-        gridlines="None" CssClass="gridview">
+        gridlines="None" CssClass="gridview" PageSize="5" PagerStyle-CssClass="pgr">
         <Columns>
             <asp:BoundField DataField="Name" HeaderText="Name" SortExpression="Name" />
             <asp:BoundField DataField="SubmittedBy" HeaderText="Submitted By" SortExpression="SubmittedBy" />

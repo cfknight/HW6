@@ -7,11 +7,11 @@
     silver: #696969
 */
 body {
-    background:#696969;
+    
 }
 
-a:link {color:white;}
-a:visited {color:#F08080;}
+a:link {color:#F08080;}
+a:visited {color:#696969;}
 
 div {
     background:#D2B48C;
@@ -19,7 +19,7 @@ div {
     width:80%;
     margin-left:auto;
     margin-right:auto;
-    color: #FFFF99;
+    color: #696969;
 }
 
 .highlight {
@@ -27,12 +27,35 @@ div {
     font-weight:bold;
 }
 
-.gridview {width:60%; background: #FFFF99; border: solid 2px white; margin-left:auto; margin-right:auto;}
+p {
+    background: #F08080;
+    width: 80%;
+    margin-left:auto;
+    margin-right:auto;
+    border:solid 2px white;
+}
+
+.gridview {width:100%; background: #FFFF99; margin-left:auto; margin-right:auto;}
 .gridview th {border: solid 2px white; background:#F08080; color:white; height:50px;}
 .gridview td {border: solid 2px white; color:#696969; height:30px;}
 .gridview a {text-decoration: none;}
 .gridview a:hover {text-decoration:underline;}
+.gridview .pgr {background:#F08080; text-align:center;}
+.gridview .pgr table {margin: 5px 0; background:#FFFF99;}
+.gridview .pgr td {padding: 0 10px; font-weight:bold;}
+.gridview .pgr a {color:#696969; text-decoration:none;}
+.gridview .pgr a:hover {text-decoration:underline;}
 
-ul#navlist {list-style-type:none; margin:0px; padding:0px; height:50px; background:white; width:60%; margin-right:auto; margin-left:auto;}
+
+.detailsview {width:100%; background:#F08080; border:solid 2px white; margin-left:auto; margin-right:auto;}
+.detailsview td {background:white;}
+.detailsview .header td {background: #FFFF99; height:30px; font-size:larger; font-weight:bold;}
+.detailsview .fieldheader {background:#696969; color:white; font-weight:bold;}
+.detailsview .command td {background: #FFFF99; padding:10px;}
+
+ul#navlist {list-style-type:none; margin:0px; padding:0px; height:40px; background:white; width:60%; margin-right:auto; margin-left:auto;}
 #navlist a {display: inline;}
-#navlist li {padding:10px 10px; display:inline-block;}
+#navlist li {padding:10px 20px; display:inline-block;}
+
+.contact {width:80%; border:solid 2px white; background:#FFFF99; margin-left:auto; margin-right:auto;}
+.about {background:#FFFF99; margin-left:auto; margin-right:auto; width:60%; border: solid 2px white;}
